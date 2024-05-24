@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hansil's site</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <ul id="sideNav">
+    <li> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutME.html">About Me</a></li>
+    <li id="dropDown">
+      <a>Memorial Day Camp</a>
+      <div class="dropdownContent">
+        <a href="aboutCamp.html">About the Camp</a>
+        <a class="active">Location and Time</a>
+        <a href="register.html">Register</a>
+      </div>
+    </li>
+  </ul>
+  <div id="openbtn" onclick="openNav()">&#9776;</div>
+  <div class="headerImageDarken"></div>
+  <img class="headerImage" src="1_KnV1cBSw-kWyh7Y6XEEzrA.jpg">
+  <h1 class="headerTitle">Timing</h1>
+  <div class="mainTextContainer">
+    <p class="mainText"> Date: Monday, May 27, 2024<br><br>
+    Time: 9:00 AM - 2:00 PM (Lunch Break from 11:30-12:00)<br><br> 
+    Location: 976 Valley Road Watchung NJ 07069<br><br>
+    A reminder that you must bring a device to code on. A laptop or Chromebook is preferred. Also bring a lunch, as we will have a lunch break from 11:30-12:00.</p>
+  </div>
+</body>
+
+</html>

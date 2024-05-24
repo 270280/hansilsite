@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hansil's site</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <ul id="sideNav">
+    <li> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a class='active'>About Me</a></li>
+    <li id="dropDown">
+      <a>Memorial Day Camp</a>
+      <div class="dropdownContent">
+        <a href="aboutCamp.html">About the Camp</a>
+        <a href="timing.html">Location and Time</a>
+        <a href="register.html">Register</a>
+      </div>
+    </li>
+  </ul>
+  <div id="openbtn" onclick="openNav()">&#9776;</div>
+  <div class="headerImageDarken"></div>
+  <img class="headerImage" src="1920x1080.jpg">
+  <h1 class="headerTitle">About Me</h1>
+  <div class="mainTextContainer">
+    <p class="mainText">Hi! My name name is Hansil Patel and I am a freshman in High School. I like to code in my free time and have made multiple projects. I like coding in HTML, CSS, and Javascript, as well as Python and Java. I also have an interest in space and physics and want to be an aerospace engineer. I have a youtube channel as well at <p class = "mainText" onclick="window.location.href='https://www.youtube.com/@HANSILPATEL'" style="cursor:pointer; text-decoration: underline;color:blue;font-size:18px;">https://www.youtube.com/@HANSILPATEL</p> </p>
+  </div>
+</body>
+
+</html>
